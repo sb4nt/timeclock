@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Time Calculator</title>
+  <style>
+    li {
+      cursor: pointer;
+    }
+  </style>
+    <script src="./script.js"></script>
+</head>
+<body>
+  <h1>Time Calculator</h1>
+  <label for="start-time">Start Time:</label>
+  <input type="time" id="start-time" name="start-time">
+
+  <label for="end-time">End Time:</label>
+  <input type="time" id="end-time" name="end-time">
+
+  <button onclick="addTime()">Add Time</button>
+
+  <h2>Time Entries:</h2>
+  <ul id="time-list">
+    <!-- Time entries will be displayed here -->
+  </ul>
+
+  <h2>Total Time:</h2>
+  <p>Total Hours: <span id="total-hours">0</span></p>
+  <p>Total Minutes: <span id="total-minutes">0</span></p>
+</body>
+</html>
