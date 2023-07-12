@@ -9,6 +9,11 @@
     font-size: 6vw;
   }
 
+  h3 {
+    margin-top: -4vw;
+    margin-bottom: 3vw;
+  }
+
   label {
     display: block;
     margin-bottom: 3vw;
@@ -16,6 +21,7 @@
   }
 
   input[type="time"] {
+    margin-bottom: 3vw;
     padding: 2vw;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -37,7 +43,7 @@
   }
 
   h2 {
-    margin-top: 7vw;
+    /* margin-top: 5vw; */
     margin-bottom: 3vw;
     font-size: 5vw;
   }
