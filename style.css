@@ -53,6 +53,20 @@
     font-size: 4vw;
   }
 
+  #time-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #time-list li {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
   #total-hours,
   #total-minutes {
     font-weight: bold;
@@ -92,8 +106,28 @@
       font-size: 16px;
     }
 
+    #time-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    #time-list li {
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    
+    
     #total-hours,
     #total-minutes {
+      font-size: 16px;
+    }
+
+    .hours,
+    .minutes {
       font-size: 16px;
     }
   }
